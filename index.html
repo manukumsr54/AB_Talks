@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Orbit — Student Hub</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ============================= -->
+    <!-- MOBILE OVERLAY -->
+    <!-- ============================= -->
+
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+
+    <!-- ============================= -->
+    <!-- SIDEBAR -->
+    <!-- ============================= -->
+
+    <aside class="sidebar" id="sidebar">
+
+        <!-- Brand -->
+        <div class="brand">
+
+            <div class="brand-logo">
+                <i data-lucide="orbit"></i>
+            </div>
+
+            <div class="brand-text">
+                <h2>Orbit</h2>
+                <span>Student hub</span>
+            </div>
+
+        </div>
+
+
+        <!-- Navigation -->
+        <nav class="navigation">
+
+            <a href="#dashboard"
+               class="nav-item active"
+               data-page="dashboard">
+
+                <i data-lucide="layout-dashboard"></i>
+                <span>Dashboard</span>
+
+            </a>
+
+
+            <a href="#feed"
+               class="nav-item"
+               data-page="feed">
+
+                <i data-lucide="rss"></i>
+                <span>Feed</span>
+
+            </a>
+
+
+            <a href="#missed"
+               class="nav-item"
+               data-page="missed">
+
+                <i data-lucide="sparkles"></i>
+                <span>What you missed</span>
+
+                <span class="notification-badge">6</span>
+
+            </a>
+
+
+            <a href="#opportunities"
+               class="nav-item"
+               data-page="opportunities">
+
+                <i data-lucide="compass"></i>
+                <span>Opportunities</span>
+
+            </a>
+
+
+            <a href="#deadlines"
+               class="nav-item"
+               data-page="deadlines">
+
+                <i data-lucide="clock-3"></i>
+                <span>Deadlines</span>
+
+            </a>
+
+
+            <a href="#saved"
+               class="nav-item"
+               data-page="saved">
+
+                <i data-lucide="bookmark"></i>
+                <span>Saved</span>
+
+            </a>
+
+
+            <div class="nav-divider"></div>
+
+
+            <a href="#settings"
+               class="nav-item"
+               data-page="settings">
+
+                <i data-lucide="settings"></i>
+                <span>Settings</span>
+
+            </a>
+
+        </nav>
+
+
+        <!-- Student Profile -->
+        <div class="sidebar-profile">
+
+            <div class="profile-avatar">
+                AR
+            </div>
+
+            <div class="profile-info">
+                <strong>Aditi Rao</strong>
+                <span>CS · Year 3</span>
+            </div>
+
+        </div>
+
+    </aside>
+
+
+    <!-- ============================= -->
+    <!-- MAIN APPLICATION -->
+    <!-- ============================= -->
+
+    <div class="app">
+
+        <!-- TOP BAR -->
+
+        <header class="topbar">
+
+            <div class="topbar-left">
+
+                <!-- Mobile menu -->
+                <button
+                    class="icon-button mobile-menu-button"
+                    id="menuButton"
+                    aria-label="Open menu"
+                >
+                    <i data-lucide="menu"></i>
+                </button>
+
+
+                <!-- Search -->
+
+                <div class="global-search">
+
+                    <i data-lucide="search"></i>
+
+                    <input
+                        type="text"
+                        placeholder="Search updates, opportunities, deadlines..."
+                    >
+
+                </div>
+
+            </div>
+
+
+            <!-- Top right -->
+
+            <div class="topbar-actions">
+
+                <button
+                    class="icon-button"
+                    aria-label="Notifications"
+                >
+                    <i data-lucide="bell"></i>
+                    <span class="notification-dot"></span>
+                </button>
+
+
+                <button
+                    class="icon-button"
+                    aria-label="Saved"
+                >
+                    <i data-lucide="bookmark"></i>
+                </button>
+
+            </div>
+
+        </header>
+
+
+        <!-- ============================= -->
+        <!-- PAGE CONTENT -->
+        <!-- ============================= -->
+
+        <main class="main-content" id="mainContent">
+
+            <!--
+                =====================================
+                PAGE CONTENT GOES HERE
+                =====================================
+
+                Your friends can replace this section
+                with Dashboard / Feed / Opportunities
+                etc.
+
+                The sidebar and topbar don't need
+                to be changed.
+            -->
+
+
+            <section class="placeholder-page">
+
+                <div class="placeholder-icon">
+                    <i data-lucide="layout-dashboard"></i>
+                </div>
+
+                <h1 id="pageTitle">Dashboard</h1>
+
+                <p id="pageDescription">
+                    Your student dashboard content will appear here.
+                </p>
+
+            </section>
+
+
+        </main>
+
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
