@@ -76,15 +76,13 @@ already-built versions instead:
   the top of the file with real data or API calls as needed.
 
 
- ##  👨‍💻 Developers
- ---
- 
-Built by:
-Developer
-Contribution
-Manu Kumar
-Frontend, integration & development
-Muskan
-UI/UX & frontend development
-Mayuri Jindal
-Frontend development & features
+## 👨‍💻 Developers
+
+**Manu Kumar**
+Frontend, Integration & Development
+
+**Muskan**
+UI/UX & Frontend Development
+
+**Mayuri Jindal**
+Frontend Development & Feature Implementation
