@@ -74,3 +74,17 @@ already-built versions instead:
 - All data in `App.jsx` (opportunities, feed items, deadlines, etc.) is
   mock data matching the reference screenshots — replace the arrays near
   the top of the file with real data or API calls as needed.
+
+
+ ##  👨‍💻 Developers
+ ---
+ 
+Built by:
+Developer
+Contribution
+Manu Kumar
+Frontend, integration & development
+Muskan
+UI/UX & frontend development
+Mayuri Jindal
+Frontend development & features
