@@ -79,10 +79,10 @@ already-built versions instead:
 ## 👨‍💻 Developers
 
 **Manu Kumar**
-Frontend, Integration & Development
+: Frontend, Integration & Development
 
 **Muskan**
-UI/UX & Frontend Development
+: UI/UX & Frontend Development
 
 **Mayuri Jindal**
-Frontend Development & Feature Implementation
+: Frontend Development & Feature Implementation
