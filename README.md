@@ -4,7 +4,7 @@ A dark-themed student hub UI (Dashboard, Feed, What You Missed, Opportunities,
 Deadlines, Saved, Settings) built with React, Vite, Tailwind CSS, and
 lucide-react icons.
 
-## Run it locally
+## Run it locally-
 
 ```bash
 npm install
